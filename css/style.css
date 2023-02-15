@@ -1,0 +1,317 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(/images/nightbg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: body;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  overflow: hidden;  
+}
+.container{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;  
+  animation-name: container;
+  animation-duration: 18s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.bus__body{
+  position: absolute;
+  width: 550px;
+  height: 200px;
+  top: 70%;
+  left: 5%;
+  background: #9b9906;
+  border-radius: 12%;
+  border-bottom: 8px solid rgba(36, 38, 38);
+  overflow: hidden;
+  animation-name: bus;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.wheel__left{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 3%;
+  left: 9%;
+  border: 14px solid #242626;
+  border-radius: 50%;
+  animation-name: wheel;
+  animation-duration: 2s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+}
+.wheel__left-in{
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 14px solid #D8D9D9;
+}
+.wheel__heart-left{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #717168;
+  border: 5px solid #242626;
+}
+.poin__left{
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 15%;
+  background-color: #242626;
+  border-radius: 50%;
+}
+.poin__left:nth-child(2){
+  position: absolute;
+  left: 10%;
+  top: 45%;
+}
+.poin__left:nth-child(3){
+  position: absolute;
+  left: 22%;
+  top: 74%;
+}
+.poin__left:nth-child(4){
+  position: absolute;
+  left: 60%;
+  top: 77%;
+}
+.poin__left:nth-child(5){
+  position: absolute;
+  left: 64%;
+  bottom: 58%;
+}
+.poin__left:nth-child(6){
+  position: absolute;
+  left: 78%;
+  top: 48%;
+}
+
+.wheel__right{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 3%;
+  left: 32%;
+  border: 14px solid #242626;
+  border-radius: 50%;
+  animation-name: wheel;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.wheel__right-in{
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 14px solid #D8D9D9;
+}
+.poin__right{
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 15%;
+  background-color: #242626;
+  border-radius: 50%;
+}
+.poin__right:nth-child(2){
+  position: absolute;
+  left: 10%;
+  top: 45%;
+}
+.poin__right:nth-child(3){
+  position: absolute;
+  left: 22%;
+  top: 74%;
+}
+.poin__right:nth-child(4){
+  position: absolute;
+  left: 60%;
+  top: 77%;
+}
+.poin__right:nth-child(5){
+  position: absolute;
+  left: 64%;
+  bottom: 58%;
+}
+.poin__right:nth-child(6){
+  position: absolute;
+  left: 78%;
+  top: 48%;
+}
+.wheel__heart-right{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #717168;
+  border: 5px solid #242626;
+}
+
+.window{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  top: 8%;
+  left: -15%;
+  background-color: #1a2121;
+  border-radius: 33%;
+}
+.window:nth-child(2){
+  position: absolute;
+  width: 120px;
+  height: 78px;
+  top: 8%;
+  left: 6%;
+  background-color: #1a2121;
+  border-radius: 25%;
+}
+.window:nth-child(3){
+  position: absolute;
+  width: 120px;
+  height: 78px;
+  top: 8%;
+  left: 30%;
+  background-color: #1a2121;
+  border-radius: 25%;
+}
+.window:nth-child(4){
+  position: absolute;
+  width: 120px;
+  height: 78px;
+  top: 8%;
+  left: 54%;
+  background-color: #1a2121;
+  border-radius: 25%;
+}
+.window:nth-child(5){
+  position: absolute;
+  width: 80px;
+  height: 78px;
+  top: 8%;
+  left: 78%;
+  background-color: #1a2121;
+  border-radius: 25%;
+}
+.window:nth-child(6){
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  top: 8%;
+  left: 96%;
+  background-color: #0fbad0;
+  border-radius: 35%;
+}
+.line{
+  position: absolute;
+  width: 508px;
+  height: 5px;
+  top: 53%;
+  left: 5%;
+  background-color: #dbf2f0;
+  border-radius: 35px;
+}
+.light{
+  position: absolute;
+  width: 20px;
+  height: 44px;
+  top: 64%;
+  left: -2%;
+  background-color: #e70e0e;
+  border-radius: 5px;
+}
+.light:nth-child(9){
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  top: 64%;
+  left: 98%;
+  background-color: #f5f981;
+  border-radius: 10px;
+}
+img{
+  position: absolute;
+  width: 4%;
+  left: 41%;
+  top: 73%;
+  z-index: 1;
+}
+.lamp-bulb{
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 74%;
+  left: 35%;
+  border: 110px solid transparent;
+  border-right: 500px solid rgba(244, 244, 187, 0.5);
+}
+.roof{
+  border-top: 5px solid black;
+}
+.moon {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  box-shadow: 2rem 2rem 0 0 #fff77e;
+  left: 80%;
+  animation-name: moon;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes wheel{
+  0%{
+    transform: rotate(0deg)
+  }
+  100%{
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes container{
+  0%{
+    left: -30%;
+  }
+  100%{
+    left: 100%;
+  }
+}
+
+@keyframes body{
+  to{
+    background-position: -500px 0;
+  }
+}
+
+@keyframes moon{
+  0%{
+    left: 110%;
+  }
+  100%{
+    left: -100%;
+  }
+}
+
+@keyframes bus {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(1deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
