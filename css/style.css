@@ -315,3 +315,71 @@ img{
   100% { transform: rotate(0deg); }
 }
 
+
+/* ======== responsive ======== */
+
+@media screen and (max-width: 640px) {
+  .bus__body{
+    width: 50%;
+    height: 100px;
+    top: 80%;
+  }
+  .window:nth-child(1){
+    width: 30px;
+    height: 40px;
+    
+  }
+  .window:nth-child(2){
+    width: 30px;
+    height: 30px;
+    
+  }
+  .window:nth-child(3){
+    width: 30px;
+    height: 30px;
+    
+  }
+  .window:nth-child(4){
+    width: 30px;
+    height: 30px;
+    
+  }
+  .window:nth-child(5){
+    width: 30px;
+    height: 30px;
+    
+  }
+  .window:nth-child(6){
+    width: 30px;
+    height: 40px;
+    left: 98%;
+  }
+  .wheel__left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+   
+  }
+  .wheel__left-in, .wheel__right-in{
+    width: 0;
+    height: 0;
+  }
+  .wheel__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    left: 40%;
+  }
+    .poin__left, .wheel__heart-left, .poin__right, .wheel__heart-right{
+    display: none;
+  }
+  img{
+    left: 54%;
+    top: 81%;
+  }
+}
+  
